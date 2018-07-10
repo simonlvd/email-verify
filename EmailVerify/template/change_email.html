@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+
+<html lang="zh-Hans" >
+<head>
+<title>修改邮箱信息</title>
+<link rel="stylesheet" type="text/css" href="/static/admin/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/static/admin/css/forms.css" />
+
+
+<script type="text/javascript" src="/admin/jsi18n/"></script>
+<script type="text/javascript" src="/static/admin/js/vendor/jquery/jquery.js"></script>
+<script type="text/javascript" src="/static/admin/js/jquery.init.js"></script>
+<script type="text/javascript" src="/static/admin/js/core.js"></script>
+<script type="text/javascript" src="/static/admin/js/admin/RelatedObjectLookups.js"></script>
+<script type="text/javascript" src="/static/admin/js/actions.js"></script>
+<script type="text/javascript" src="/static/admin/js/urlify.js"></script>
+<script type="text/javascript" src="/static/admin/js/prepopulate.js"></script>
+<script type="text/javascript" src="/static/admin/js/vendor/xregexp/xregexp.js"></script>
+
+
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/responsive.css" />
+
+
+<meta name="robots" content="NONE,NOARCHIVE" />
+</head>
+
+
+<body class=" app-automail model-emailaddr change-form"
+  data-admin-utc-offset="28800">
+
+<!-- Container -->
+<div id="container">
+
+
+    <!-- Header -->
+    <div id="header">
+        <div id="branding">
+
+<h1 id="site-name"><a href="/admin/">邮箱自动确认</a></h1>
+
+        </div>
+
+
+        <div id="user-tools">
+
+{#                欢迎，#}
+{#                <strong>yahoo</strong>.#}
+{##}
+{##}
+{##}
+{#                    <a href="/">查看站点</a> /#}
+{##}
+{##}
+{##}
+{##}
+{##}
+{##}
+{#                <a href="/admin/password_change/">修改密码</a> /#}
+{##}
+{#                <a href="/admin/logout/">注销</a>#}
+
+        </div>
+
+
+
+    </div>
+    <!-- END Header -->
+
+<div class="breadcrumbs">
+<a href="index">首页</a>
+{#&rsaquo; <a href="/admin/automail/">Automail</a>#}
+{#&rsaquo; <a href="/admin/automail/emailaddr/">Email addrs</a>#}
+&rsaquo;修改邮箱信息
+</div>
+
+
+
+
+
+
+
+    <!-- Content -->
+    <div id="content" class="colM">
+
+        <h1>修改邮箱信息</h1>
+        <div id="content-main">
+
+
+  <ul class="object-tools">
+
+    <li>
+
+{#        <a href="/admin/automail/emailaddr/70/history/?_changelist_filters=q%3D" class="historylink">历史</a>#}
+    </li>
+
+
+  </ul>
+
+
+<form enctype="multipart/form-data" action="?_changelist_filters=q%3D" method="post" id="emailaddr_form" novalidate><input type='hidden' name='csrfmiddlewaretoken' value='Igh9U4DGJE1v0Y0n81SSbeIxPnJhnFejOGkGhhJit7Vryxf3fUNU2TedZog7UVf0' />
+<div>
+
+
+
+
+
+
+
+  <fieldset class="module aligned ">
+
+
+
+        <div class="form-row field-emailaddr">
+
+
+                <div>
+
+
+                        <label class="required" for="id_emailaddr">邮箱:</label>
+
+                            <input type="text" name="emailaddr" value="overprozcwixda@yahoo.com" class="vTextField" maxlength="100" required id="id_emailaddr" />
+
+
+
+                </div>
+
+        </div>
+
+        <div class="form-row field-emailpsd">
+
+
+                <div>
+
+
+                        <label class="required" for="id_emailpsd">密码:</label>
+
+                            <input type="text" name="emailpsd" value="nOWlaN7143" class="vTextField" maxlength="100" required id="id_emailpsd" />
+
+
+
+                </div>
+
+        </div>
+
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="submit-row">
+<input type="submit" value="保存" class="default" name="_save" />
+
+
+    <p class="deletelink-box"><a href="/admin/automail/emailaddr/70/delete/?_changelist_filters=q%3D" class="deletelink">删除</a></p>
+
+
+{#<input type="submit" value="保存并增加另一个" name="_addanother" />#}
+{#<input type="submit" value="保存并继续编辑" name="_continue" />#}
+</div>
+
+
+
+    <script type="text/javascript"
+            id="django-admin-form-add-constants"
+            src="/static/admin/js/change_form.js"
+            >
+    </script>
+
+
+
+
+<script type="text/javascript"
+        id="django-admin-prepopulated-fields-constants"
+        src="/static/admin/js/prepopulate_init.js"
+        data-prepopulated-fields="[]">
+</script>
+
+
+</div>
+</form></div>
+
+
+        <br class="clear" />
+    </div>
+    <!-- END Content -->
+
+    <div id="footer"></div>
+</div>
+<!-- END Container -->
+
+</body>
+</html>
